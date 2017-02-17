@@ -191,7 +191,7 @@ private void MainPage_Unloaded(object sender, RoutedEventArgs e)
 ```
 
 ## Initialize the SPI and GPIO Busses
-Still in the *ManPage()* constructor, add a call to a new method named **InitAllAsync()**. 
+Still in the *MainPage()* constructor, add a call to a new method named **InitAllAsync()**. 
 
 ```csharp
 public MainPage()
