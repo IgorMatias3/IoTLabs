@@ -167,7 +167,7 @@ InitGpioAsync();
 The GpioController.GetDefaultAsync() asynchronous method was added to the Windows IoT Extensions for the UWP in the 10.0.10586 version. If you are running Windows 10 (version 10.0.10240) or earlier, the GpioController.GetDefaultAsync() method will not work.
 </blockquote>
 
-Add the following code for the <code>InitGpioAsync()</code> method.
+Add/replace the following code for the <code>InitGpioAsync()</code> method.
 
 ```csharp
 private async Task InitGpioAsync()
